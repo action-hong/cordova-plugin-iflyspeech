@@ -122,7 +122,7 @@ Speech.prototype = {
     },
 
     startListening: function(options, func) {
-    	this.onspeakcallback = func;
+    	// this.onspeakcallback = func;
         exec(null, null, 'Speech', 'startListening', [options]);
     },
 
